@@ -38,7 +38,7 @@ If ReadFile(#File, "..\banks\Envelopes.bin") ; open file for read
       Modulations(num)\startpitch = startpitch
  
       Repeat    
-        counter.a = ReadAsciiCharacter(#File) : Debug "counter = " + Str(sounter) + " ; arr num = " + Str(num)
+        counter.a = ReadAsciiCharacter(#File) : Debug "counter = " + Str(counter) + " ; arr num = " + Str(num)
         If counter
           ; if counter positive. else if 0 - means end of modulation
           
