@@ -5,3 +5,6 @@ and yes. Dune have 2 sets of banks. first one is intro melody. second one all ba
 
 
 for test what it is - start GEMSPlay.bat file, to load banks into player and press enter. will play a song (for Windows)
+
+
+i change banks for new one - from romhacks. original was a little wrong :) not a full instruments bank was taking from rom game.
