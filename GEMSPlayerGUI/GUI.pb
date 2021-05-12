@@ -1034,12 +1034,12 @@ EndProcedure
 If OpenLibrary(#Library, "GEMSPlayLibrary.dll")  
   
   ;                            *memory - pointers to memory image of banks
-  Prototype.i gemsplay_initprt(patches.l, envelopes.l, sequences.l, samples.l)
-  Prototype gemsplay_cleanupprt()
-  Prototype gemsplay_stopprt()
-  Prototype gemsplay_pauseprt()
-  Prototype gemsplay_playprt()
-  Prototype gemsplay_set_gems28modeprt(enable.i)
+  PrototypeC.i gemsplay_initprt(patches.l, envelopes.l, sequences.l, samples.l)
+  PrototypeC gemsplay_cleanupprt()
+  PrototypeC gemsplay_stopprt()
+  PrototypeC gemsplay_pauseprt()
+  PrototypeC gemsplay_playprt()
+  PrototypeC gemsplay_set_gems28modeprt(enable.i)
   
   Global GEMSInit.gemsplay_initprt = GetFunction(#Library, "gemsplay_init")
   Global GEMSCleanup.gemsplay_cleanupprt = GetFunction(#Library, "gemsplay_cleanup")  
